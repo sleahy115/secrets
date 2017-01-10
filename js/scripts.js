@@ -1,12 +1,19 @@
 $(document).ready(function(){
   $("#learn").click(function(){
-    $("#learn-content").show();
+    $("#content").show();
+    $("#content p").text("There is a rooftop pool.");
+    $(".jumbotron").text("What you didn't know");
+    $("#content p").css('color', 'green');
   });
   $("#quickly").click(function(){
-    $("#quickly-content").show();
+    $("#content").show();
+    $("#content p").text("There are lots of food carts nearby");
+    $("#content p").css('color', 'red');
   });
   $("#pair").click(function(){
-    $("#pair-content").show();
+    $("#content").show();
+    $("#content p").text("Don't forget your tic-tacs");
+    $("#content p").css('color', 'blue');
   });
   // $( "button:first" ).click(function() {
   //   $( "p:first" ).fadeToggle( "slow", "linear" );
